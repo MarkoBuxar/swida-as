@@ -2,24 +2,18 @@
 
 # setup
 
-- install frontend packages 
-    ```
-    $ cd frontend
-    $ npm i
-    ```
+
 - run backend migrations
     ```
     $ cd backend
     $ python manage.py migrate
-    ```
-- start backend server
-    ```
-    $ cd backend
     $ ./runserver
     ```
-- start frontend server 
+
+- frontend 
     ```
     $ cd frontend
+    $ npm i
     $ npm run build
     $ npm run preview
     ```
