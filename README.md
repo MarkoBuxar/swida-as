@@ -3,7 +3,7 @@
 # setup
 
 
-- run backend migrations
+- backend
     ```
     $ cd backend
     $ python manage.py migrate
