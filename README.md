@@ -14,8 +14,14 @@
     ```
 - start backend server
     ```
-    cd backend
-    ./runserver
+    $ cd backend
+    $ ./runserver
+    ```
+- start frontend server 
+    ```
+    $ cd frontend
+    $ npm run build
+    $ npm run preview
     ```
 
 
